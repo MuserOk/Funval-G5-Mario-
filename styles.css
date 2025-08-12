@@ -1,0 +1,45 @@
+body {
+    background-color: rgba(165, 179, 154, 0.473);
+}
+
+#titulo {
+    font-size: 40px;
+    color: rgb(226, 70, 9);
+}
+
+#resumen {
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.quitarPunto {
+    list-style-type: none;
+    /*quito los puntos por defecto*/
+    padding-left: 0;
+    margin: 0;
+    /*Nota: "0" puede ir sin "px"*/
+}
+
+.quitarPunto li {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: x-large;
+    margin-top: 2rem;
+}
+
+.quitarPunto li img {
+    width: 350px;
+    margin-top: 2px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#imgTeorias {
+    width: 500px;
+    border: 5px outset rgb(1, 184, 16);
+    border-radius: 5px;
+}
+
+;

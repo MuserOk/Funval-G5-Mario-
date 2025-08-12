@@ -1,0 +1,45 @@
+Como se crea nuestro producto? Aplicaciones Web
+------PASOS-----
+1-Extraccion de requerimientos
+2-Transformarlo a lenguaje de programación
+3-Dividir problema grande en pequeños
+4-Partes de un sistema:
+
+	a-Frontend (visual) el lugar para servir
+		-aprender como traer la info del backend, mostrarlos
+
+	b-Backend (estructura y modelado) cocina
+
+	c-Data Bases (Almacenamiento de infomacion) ingredientes
+
+
+
+------FRONTEND------
+
+a- HTML : La estructura de la pagina (esqueleto de la app)
+
+b- Css : Los estilos (el recubrimiento / el aspecto visual)
+
+c- Js : El dinamismo (darle vida / movimiento) LENGUAGE DE PROGRAMACION
+
+-------------------
+
+
+
+-----CONTROLADOR DE VERSIONES----
+
+Dominar Git!!! 
+
+Ramas---
+Clonar--- se puede trabajar en local sin internet
+Fusiones --- merge 
+Integridad
+
+----------------------------------
+
+
+
+
+
+
+
