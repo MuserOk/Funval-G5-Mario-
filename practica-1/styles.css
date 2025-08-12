@@ -1,0 +1,53 @@
+body {
+    background-color: rgba(40, 41, 40, 0.801);
+}
+
+#tituloPrincipal {
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-image: url("https://images.hdqwalls.com/wallpapers/planets-cosmos-4k-mx.jpg");
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#subtituloBienvenida {
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+#imagenMia {
+    width: 100px;
+}
+
+#sobreMi {
+    color: rgb(52, 37, 185);
+    font-size: 25px;
+}
+
+.subtitulosSecciones {
+    color: rgb(52, 37, 185);
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#listaRedes:hover {
+    background-color: white;
+    color: red;
+}
+
+#listaRedes li:hover {
+    color: brown;
+    font-size: 20px;
+}
+
+#listaRedes,
+#habilidades {
+    list-style-type: none;
+}
+
+#saludosDespedida {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
