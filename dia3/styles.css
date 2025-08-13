@@ -1,0 +1,136 @@
+/*------------ANULAR DISEÑOS DE MARGENES POR DEFECTO de ATRIBUTOS GLOBAL---------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*se mide el borde de la caja*/
+}
+
+
+/* 
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contenedorCaja {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+
+
+.caja {
+    height: 12.5rem;
+    width: 12.5rem;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.caja1 {
+    background-color: red;
+    
+    margin-left: 10px;
+}
+
+.caja2 {
+    background-color: green;
+    
+    margin-right: 20px;
+} */
+
+
+/*EJEMPLO DE TABLA*/
+
+
+/* table {
+    background-color: antiquewhite;
+    border: black 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+th,
+td {
+    border: black 1px solid;
+    padding: 8px;
+} */
+
+
+/*---------EJERCICIO FORMULARIO-----*/
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(24, 57, 148);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(102, 92, 134, 0.541);
+    padding: 2rem 1rem;
+    border-radius: 0.5rem;
+    gap: 1rem;
+    color: white;
+    font-size: small;
+    box-shadow: 4px 2px 20px rgba(0, 0, 0, 0.336);
+}
+
+h3 {
+    text-align: center;
+    padding: 6px;
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contenedorFechaHora {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.contenedorFechaHora div {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: rgb(150, 155, 168);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+button:hover {
+    background-color: rgb(111, 116, 126);
+}
+
+form img {
+    margin-left: 70px;
+    width: 150px;
+}
+
+.btn-Logo {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 8px;
+}
