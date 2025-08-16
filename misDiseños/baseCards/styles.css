@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card {
+    background-color: rgb(120, 204, 252);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 28rem;
+    max-width: 18rem;
+    border-radius: 0.5rem;
+    gap: 0.5rem;
+    box-shadow: 0rem 1rem 2rem rgb(3, 3, 3);
+    padding: 2rem 0.25rem 1rem 0.25rem;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3rem;
+    font-family: Vengeance;
+    -webkit-text-stroke: 0.04rem rgb(49, 48, 48);
+    color: rgb(150, 150, 145);
+}
+
+p {
+    text-align: center;
+    color: rgb(59, 59, 59);
+}
+
+.imgCard {
+    max-width: 94%;
+    border-radius: 0.5rem;
+}
+
+@font-face {
+    font-family: 'Vengeance';
+    src: url(./fonts/AVENGEANCE\ HEROIC\ AVENGER.otf), url(./fonts/AVENGEANCE\ HEROIC\ AVENGER.ttf), url(./fonts/AVENGEANCE\ HEROIC\ AVENGER\ AT.otf), url(./fonts/AVENGEANCE\ HEROIC\ AVENGER\ AT.ttf), url(./fonts/AVENGEANCE\ HEROIC\ AVENGER\ BD.otf), url(./fonts/AVENGEANCE\ HEROIC\ AVENGER\ BD.ttf), url(./fonts/AVENGEANCE\ HEROIC\ AVENGER\ BI.otf), url(./fonts/AVENGEANCE\ HEROIC\ AVENGER\ BI.ttf);
+    font-weight: normal;
+    font-style: normal;
+}

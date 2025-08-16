@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#h {
+    color: red;
+}
+
+.cambio {
+    color: aqua;
+}
+
+#q {
+    color: blue;
+    border: solid 2px red;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    border: 2px blue solid;
+    justify-content: center;
+}
+
+
+/*me gusta que que las clases son participativas, el esquema de los minutos de descanso entre hora y hora ayuda bastante a descansar la vista, tambien el ambiente calido de la clase en si. La verdad no veo para mejorar nada, salvo un poco en los horarios (por mi parte tambien).*/

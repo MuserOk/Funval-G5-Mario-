@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 1. Caja Flexible: Crea un contenedor con 3 divs hijos (cajas) y usa Flexbox para alinearlos en una fila horizontal. */
+
+
+/* 2. Centrado Perfecto: Centra un único div (horizontal y verticalmente) dentro de un contenedor grande usando Flexbox. */
+
+.contPadre {
+    border: 2px red solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+
+.contHijo {
+    background-color: blue;
+}
+
+
+/* 3. Dirección de Columna: Organiza 4 botones en una columna vertical en el centro de la página. */
+
+
+/* 4. Espacio entre elementos: Distribuye 5 elementos con espacio uniforme entre ellos (usa `justify-content: space-between`). */
+
+.contElementos {
+    border: 2px solid green;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.elemento {
+    border: 2px solid red;
+}
+
+
+/* 5. Alinear al final: Alinea 3 elementos al final (parte inferior) de un contenedor alto. */
+
+
+/* 6. Navbar Simple: Crea un menú horizontal con 5 enlaces, donde el logo está a la izquierda y los enlaces a la derecha. */
+
+.contenedorNav {
+    background-color: burlywood;
+    display: flex;
+    height: 50px;
+    width: auto;
+    /* gap: 50px; */
+    justify-content: space-between;
+}
+
+.enlaces {
+    border: 2px solid chartreuse;
+    display: flex;
+    /* justify-content: end; */
+}
+
+.Enlace {
+    background-color: gray;
+    color: white;
+}
+
+.logo {
+    background-color: red;
+    display: flex;
+    /* justify-content: start; */
+}
+
+
+/* 7. Tarjetas Responsivas: Diseña 3 tarjetas (con imagen y texto) en una fila que se apilen en columna en móviles (usa `flex-direction: column` en media queries). */
+
+
+/* 8. Footer Flexible: Un footer con 3 secciones: derechos (izquierda), enlaces (centro), redes (derecha). */
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.derechos {
+    display: flex;
+    padding-left: 8px;
+}
+
+.enlacesFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.redesFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-right: 8px;
+}
+
+svg {
+    color: red;
+}
+
+
+/* 9. Ordenar Elementos: Usa `order` para cambiar visualmente el orden de 3 divs (sin modificar el HTML). */
+
+
+/* 10. Alineación Mixta: Un contenedor con algunos elementos alineados al inicio y otros al final (usa `align-self`). */
+
+.contenedorAlinear {
+    border: blue 3px solid;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+
+.elementosIzq {
+    border: rgb(136, 233, 157) 2px solid;
+    display: flex;
+    align-self: self-start;
+}
+
+.elementosDer {
+    border: violet 2px solid;
+    display: flex;
+    align-self: flex-end;
+}
+
+
+/* 11. Grid con Flexbox: Simula una cuadrícula de 2x2 usando Flexbox y `flex-wrap`. */
+
+
+/* 12. Formulario Flexible: Diseña un formulario con etiquetas a la izquierda y campos a la derecha, alineados correctamente. */
+
+form {
+    display: flex;
+    background-color: rgb(33, 116, 51);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    position: relative;
+    top: 20px;
+    left: 50%;
+    margin: 40px;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-radius: 0.5rem;
+    color: rgb(6, 61, 6);
+}
+
+.tituloForm {
+    color: rgb(238, 241, 243);
+    padding: 1rem;
+}
+
+.datosForm {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+input {
+    border-radius: 5px;
+    background-color: rgb(140, 145, 146);
+}
+
+button {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(180, 187, 178);
+    border: none;
+    border-radius: 0.4rem;
+    min-width: 7rem;
+    color: rgb(16, 56, 26);
+}
+
+button:hover {
+    background-color: rgb(196, 206, 196);
+    border: inset 3px green;
+}
+
+
+/* 13. Galería de Imágenes: Crea una galería donde las imágenes se expandan para llenar el espacio disponible pero mantengan su relación de aspecto. */
+
+
+/* 14. Menú Acordeón: Usa Flexbox para un acordeón vertical donde los ítems se expanden al hacer clic. */
+
+
+/* 15. Barra de Progreso: Construye una barra de progreso con secciones flexibles que se llenan dinámicamente. */
+
+
+/* 16. Layout Holy Grail: Crea el clásico layout (header, footer, 3 columnas: nav, content, aside) usando solo Flexbox. */
+
+
+/* 17. Masonry Layout: Diseña un diseño tipo "masonry" (como Pinterest) con Flexbox y `flex-wrap`. */
+
+
+/* 18. Carrusel Flexible: Un carrusel horizontal donde los ítems se centren en pantalla (sin librerías externas). */
+
+
+/* 19. Chat Flexible: Una interfaz de chat donde los mensajes propios estén a la derecha y los ajenos a la izquierda. */
+
+
+/* 20. Dashboard Responsivo: Un panel con sidebar colapsable (usando `flex-basis` y transiciones). */
