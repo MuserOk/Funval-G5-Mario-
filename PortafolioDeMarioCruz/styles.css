@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'marvel';
+    src: url(./fonts/MarvelRegular-Dj83.ttf) font-weight: normal;
+    font-style: normal;
+}
+
+.marverFont {
+    font-family: 'marvel';
+}
