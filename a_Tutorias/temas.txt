@@ -1,0 +1,37 @@
+1.html: esqueleto pagina web
+    partes fundamentales
+2.css: estilos 
+    en etiquetas 
+    en el head
+    externa en hoja de estilos 
+        vincular en el html (linkear)
+        selectores (etiquetas, id, clases)
+3.box-model
+    margin
+    padding
+    border
+4.ejemplos:
+    tablas
+        <table>
+            <thead>
+                <tr>
+                    <th>//todos los encabezados que tendra tu tabla...</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>//pueden estar vacios</td>
+                </tr>
+            </tbody>
+        </table>
+
+    formularios
+
+        <form>
+            <label>nombre para el campo</label>
+            <input type=" " placeholder=" esto va dentro como ayuda visual">
+            ...
+            <button type=" ">clickear</button>
+        </form>
+        
+    cards

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <title>Trabajando con Estados Activados por Tailwind</title>
+</head>
+
+<!--aplicando hover (no funciona el focus y activate) y efecto de transicion-->
+
+<body class="flex flex-col justify-center items-center min-h-screen w-full relative">
+    <!--     <div class="absolute hover:opacity-0 transition delay-[90ms,800ms] border-2 rounded-xl min-h-68 w-48 flex flex-col items-center p-4 gap-8 bg-[#111155]">
+        <h1 class="text-2xl font-bold text-[#84848f]">Spider-Man</h1>
+        <img class="rounded-md " src="https://image.api.playstation.com/vulcan/ap/rnd/202009/3021/5ayReKkz8RaBVuTvrxgA3rvh.png" alt="spiderMan-Normal">
+    </div>
+    <div class="border-2 rounded-xl min-h-68 w-48 flex flex-col items-center p-4 gap-8 bg-[#303d4da8] ">
+        <h1 class="text-2xl font-bold text-[#1f1f27]">Spider-Man</h1>
+        <img class="rounded-md " src="https://wallpapers.com/images/hd/black-spiderman-graphic-art-ia6ovo8nna2uhr9g.jpg" alt="spiderMan-Negro">
+        <button class="bg-[#a8a3a3] rounded-xl pt-1 pb-1 pl-4 pr-4 hover:bg-[#c7c4c4] focus:bg-[#312e2e] focus:text-[#ccc7c7] active:outline-2 outline-offset-2 outline-[#6e6f7c]">ClickMe</button>
+    </div>
+ -->
+    <!--<div class="border-2 rounded-xl min-h-68 w-48 flex flex-col items-center p-4 gap-8 bg-[#111155] bg-[url(https://image.api.playstation.com/vulcan/ap/rnd/202009/3021/5ayReKkz8RaBVuTvrxgA3rvh.png)] hover:bg-[url(https://wallpapers.com/images/hd/black-spiderman-graphic-art-ia6ovo8nna2uhr9g.jpg)]">
+ -->
+
+
+    <!--     <form action="" class="bg-[#c9c8c8] rounded-xl min-h-68 w-62 flex flex-col p-4 gap-2 ">
+        <h3 class="text-center text-[#403e5f] font-bold">FORMULARIO</h3>
+        <label for="">Nombre</label>
+        <input class="border-2 border-gray-100 rounded-sm" type="text" placeholder="ej.: Juan Perez">
+        <label for="">Correo</label>
+        <input class="border-2 border-gray-100 rounded-sm" type="email" placeholder="ej.:juanperez@email.com">
+        <label for="">Edad</label>
+        <input class="border-2 border-gray-100 rounded-sm" type="number" placeholder="ej.: 20">
+        <label for="">Estaca</label>
+        <select name="" id="">
+            <option value="">La Plata</option>
+            <option value="">La Plata Este</option>
+            <option value="">La Plata Sur</option>
+        </select>
+    </form> -->
+
+    <form action="" class="bg-[#21205ce0] rounded-xl min-h-68  flex flex-col p-4 gap-3 text-[white]">
+        <h3 class="text-center text-[#f4f4f5] font-bold p-4 hover:text-white text-2xl">FORMULARIO DE MINISTRACION</h3>
+        <label for="">Apellido de la familia</label>
+        <input class="border-2 border-gray-100 rounded-sm focus:bg-gray-500 focus:text-blue-950 p-1" type="text" placeholder="ej.: Perez">
+        <label for="">Estaca</label>
+        <select name="" id="" class=" border-1 rounded-sm border-gray-100 text-[#1e1e66] bg-[grey] p-1">
+            <option class="" value=""></option>
+            <option value="">La Plata Centro</option>
+            <option value="">La Plata Norte</option>
+            <option value="">La Plata Sur</option>
+            <option value="">La Plata Este</option>
+            <option value="">La Plata Oeste</option>
+        </select>
+        <label for="">Cantidad de Integrantes en la Familia</label>
+        <input class="border-2 border-gray-100 rounded-sm focus:bg-gray-500 focus:text-blue-950 p-1 " type="number" placeholder="ej.: 20">
+        <div class="flex justify-around gap-18">
+            <div>
+                <label for="">Fecha</label>
+                <input type="date" class="border-2 border-gray-100 rounded-sm focus:bg-gray-500 focus:text-blue-950 p-1">
+            </div>
+            <div>
+                <label for="">Hora</label>
+                <input type="time" class="border-2 border-gray-100 rounded-sm focus:bg-gray-500 focus:text-blue-950 p-1">
+            </div>
+        </div>
+        <label for="">Correo electronico</label>
+        <input class="border-2 border-gray-100 rounded-sm p-1 focus:bg-gray-500 focus:text-blue-950" type="email" placeholder="ej.:perezjuan@email.com">
+        <button type="submit" class="bg-[#a19d9d] p-1 mt-5 mb-5 ml-10  mr-10 rounded-2xl ">Enviar</button>
+    </form>
+
+</body>
+
+</html>
+
+<!--
+formulario para agendar visitas de ministracion
+requerimientos:
+    apellido de la familia
+    estaca (de 5 opciones)
+    cant integrantes de la familia
+    fecha y hora para recibirlos
+    correo de la familia (verificar que sea valida)
+    boton enviar (desabilitado primero)
+-->

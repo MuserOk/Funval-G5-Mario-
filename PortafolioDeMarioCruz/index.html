@@ -9,37 +9,96 @@
     <title>Document</title>
 </head>
 
-<body class="flex min-h-screen max-w-[1300px] flex-col">
-    <header class="bg-blue-950 flex items-center justify-between pl-4 pr-4 sm:pl-6 sm:pr-6">
+<body class="flex min-h-screen bg-blue-900/80 flex-col">
+    <header class="fixed z-50 w-screen bg-black/50 flex items-center justify-between pl-4 pr-4 sm:pl-6 sm:pr-6">
         <button class="hover:bg-gray-500 rounded-md border-2 border-white md:hidden">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 text-white ">
                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
             </svg>
         </button>
-        <nav class="hidden md:flex gap-6 lg:gap-8 text-2xl lg:font-bold text-white">
+        <nav class="hidden md:flex gap-6 subTitulo lg:gap-8 text-2xl lg:font-bold text-white">
             <a href="#contactos" class="hover:text-[110%] ">Contacto</a>
             <a href="#redes" class="hover:text-[110%]">Redes Sociales</a>
             <a href="#comentarios" class="hover:text-[110%]">Comentario</a>
             <a href="#inicio" class="hover:text-[110%]">Inicio</a>
         </nav>
         <img class="h-24 ml-3" src="./image/miLogotipo.png" alt="logotipo">
-        <Button class="flex flex-col justify-center items-center relative text-[gray] font-sans p-1 hover:text-white hover:text-lg lg:hover:text-xl hover:p-0 lg:text-lg lg:font-bold">./contact
+        <Button class="subTitulo flex flex-col justify-center items-center relative text-[gray] font-sans p-1 hover:text-white hover:text-lg lg:hover:text-xl hover:p-0 lg:text-lg lg:font-bold">./contact
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 absolute top-[60%] right-[10%] text-[#2f2f44] md:text-2xl">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" />
             </svg>
         </Button>
     </header>
-    <main class="flex-1">
-        <section class="flex justify-center items-center gap-4 lg:gap-16 p-4 bg-[#3f3434] h-auto">
-            <div class="flex flex-col-reverse items-center ">
-                <a class="text-lg sm:text-xl md:text-2xl sm:pt-4 font-bold text-[#9c9c9c] hover:text-[#7f7f8a] hover:text-xl sm:hover:text-2xl md:hover:text-3xl" href="#proyectos">Proyectos</a>
-                <h1 class="text-xl sm:text-2xl md:text-4xl sm:p-2 font-bold text-[#979799] text-center">Desarrollador Full Stack</h1>
-                <h2 class="marvelFont text-3xl sm:text-4xl md:text-6xl font-bold text-[#7b7b8a] text-center m-4 ">Mario Cruz</h2>
+    <main class="flex-1 pt-24 ">
+        <section class="bg-[url(https://images.wallpapersden.com/image/download/marvel-what-if_bG1lbm6UmZqaraWkpJRobWllrWdma2U.jpg)] bg-cover flex flex-col items-center pt-12 pb-10 gap-4 lg:gap-1">
+            <h2 class="subTitulo text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold  text-center m-4 ">Mario Cruz</h2>
+            <div class="flex items-center gap-6">
+                <h1 class="subTitulo  text-4xl sm:text-5xl md:text-6xl lg:text-7xl sm:p-2 font-bold text-center">Desarrollador Full Stack</h1>
+                <img class="  size-50 lg:size-70 rounded-full mr-6" src="./image/miFoto-optimizada.png" alt="fotografia de mario cruz">
             </div>
-            <img class="size-30 sm:size-50 md:size-60 rounded-full" src="./image/miFoto-optimizada.png" alt="fotografia de mario cruz">
+            <a class="subTitulo  text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold hover:text-[#4c4c87] hover:text-xl sm:hover:text-3xl md:hover:text-4xl lg:hover:text-5xl" href="#proyectos">Proyectos</a>
+        </section>
+        <section class="md:pl-36 md:pr-36  bg-gradient-to-r from-blue-300 via-blue-400 to-blue-500 flex flex-col text-center justify-center items-center gap-4 text-white p-10">
+            <h3 class="subTitulo  text-4xl sm:text-5xl md:text-6xl lg:text-7xl sm:p-2 font-bold text-center">Quien soy?</h3>
+            <p class="subTitulo  text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold hover:text-[#4c4c87] hover:text-xl sm:hover:text-3xl md:hover:text-4xl lg:hover:text-5xl">Como desarrollador full stack, me enfoco en crear aplicaciones web funcionales y bien estructuradas.</p>
+            <p class="subTitulo  text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold hover:text-[#4c4c87] hover:text-xl sm:hover:text-3xl md:hover:text-4xl lg:hover:text-5xl">Tengo experiencia trabajando tanto en el front-end como en el back-end, utilizando un conjunto de tecnologias para construir soluciones completas.</p>
+            <p class="subTitulo  text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold hover:text-[#4c4c87] hover:text-xl sm:hover:text-3xl md:hover:text-4xl lg:hover:text-5xl">Mi objetivo es desarrollar productos eficientes y faciles de usar, prestando atencion a la calidad del codigo y a la resolucion de problemas.</p>
+            <p class="pb-10 subTitulo  text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold hover:text-[#4c4c87] hover:text-xl sm:hover:text-3xl md:hover:text-4xl lg:hover:text-5xl">Busco oportunidades para aplicar y expandir mis habilidades tecnicas en proyectos desafiantes.</p>
+        </section>
+        <section class="flex flex-col pt-16 pb-16 items-center">
+            <h3 class="subTitulo  text-4xl sm:text-5xl md:text-6xl lg:text-7xl sm:p-2 font-bold">Skills</h3>
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 place-items-center mt-8 mb-8">
+                <div class="bg-[url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2014/07/351628-marvel-anuncia-nuevo-capitan-america.jpg?tf=3840x)] bg-cover  flex flex-col items-center justify-center min-h-[22rem] max-w-[18rem] rounded-2xl shadow-xl/80 p-[2rem 0.25rem 1rem 0.25rem]">
+                    <img class="max-w-[94%] rounded-md" src="./image/logo-html5.png" alt="imagen">
+                </div>
+                <div class="bg-[url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/07/iron-man-vr-1983107.jpg?tf=3840x)] bg-cover flex flex-col items-center justify-center min-h-[22rem] max-w-[18rem] rounded-2xl shadow-xl/80 p-[2rem 0.25rem 1rem 0.25rem]">
+                    <img class="max-w-[94%] rounded-md h-84 " src="./image/logo-css3.png" alt="imagen">
+                </div>
+                <div class="bg-[url(https://m.gettywallpapers.com/wp-content/uploads/2021/05/Thor-Desktop-Wallpaper.jpg)] bg-cover flex flex-col items-center justify-center min-h-[22rem] max-w-[18rem] rounded-2xl shadow-xl/80 p-[2rem 0.25rem 1rem 0.25rem]">
+                    <img class="max-w-[94%] rounded-md h-60" src="./image/logo-js.png" alt="imagen">
+                </div>
+                <div class="bg-[url(https://pm1.aminoapps.com/6542/f1d2357a5e41c8c8a726bc4f595b531ecc78ba92_hq.jpg)] bg-cover flex flex-col items-center justify-center min-h-[22rem] max-w-[18rem] rounded-2xl shadow-xl/80 p-[2rem 0.25rem 1rem 0.25rem]">
+                    <img class="max-w-[94%] rounded-md" src="./image/logo-python.png" alt="imagen">
+                </div>
+                <div class="bg-[url(https://wallpapers.com/images/featured/spiderman-p4ashmgeamn2mvkn.jpg)] bg-cover flex flex-col items-center justify-center min-h-[22rem] max-w-[18rem] rounded-2xl shadow-xl/80 p-[2rem 0.25rem 1rem 0.25rem]">
+                    <img class="max-w-[94%] rounded-md" src="./image/logo-sql.png" alt="imagen">
+                </div>
+                <div class="bg-[url(https://pm1.aminoapps.com/6188/05b86acff3278f9eb09d054ecedf2cb89ac7d1c7_hq.jpg)] bg-cover  flex flex-col items-center justify-center min-h-[22rem] min-w-72 max-w-[18rem] rounded-2xl shadow-xl/80 p-8">
+                    <h3 class="text-center subTitulo  text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold hover:text-[#4c4c87] hover:text-xl sm:hover:text-3xl md:hover:text-4xl lg:hover:text-5xl">Habilidades Adicionales</h3>
+                    <figure class="flex-1 grid grid-cols-2 p-2 gap-2">
+                        <img class="rounded-md" src="" alt="imagen">
+                        <img class="rounded-md" src="" alt="imagen">
+                        <img class="rounded-md" src="" alt="imagen">
+                        <img class="rounded-md" src="" alt="imagen">
+                    </figure>
+                    <a href="#" type="button" class="bg-gray-200 pl-3 pr-3 pt-2 pb-2 rounded-xl text-white subTitulo">Descarga CV</a>
+                </div>
+            </div>
+        </section>
+        <section class="flex flex-col pt-16 pb-16 items-center">
+            <h3 class="subTitulo  text-4xl sm:text-5xl md:text-6xl lg:text-7xl sm:p-2 font-bold">Proyectos destacados</h3>
+        </section>
+        <section class="flex flex-col pt-16 pb-16 items-center">
+            <form action="" class="bg-[#21205ce0] rounded-xl min-h-68 min-w-86  flex flex-col p-4 gap-3 text-[white]">
+                <h3 class="subTitulo  text-4xl sm:text-5xl md:text-6xl lg:text-7xl sm:p-2 font-bold text-center pt-8">Contacto</h3>
+                <label for="">Redacta</label>
+                <textarea name="" id="" class="border-2 rounded-sm focus:bg-gray-500 focus:text-blue-950 p-1" placeholder="Escribe aqui..."></textarea>
+                <label for="">Apellido y Nombre</label>
+                <input class="border-2 border-gray-100 rounded-sm focus:bg-gray-500 focus:text-blue-950 p-1" type="text" placeholder="ej.: Perez Juan">
+                <label for="">Correo electronico</label>
+                <input class=" border-2 border-gray-100 rounded-sm p-1 focus:bg-gray-500 focus:text-blue-950" type="email" placeholder="ej.:perezjuan@email.com">
+                <button type="submit" class="cursor-pointer bg-[#a19d9d] p-1 mt-5 mb-5 ml-10  mr-10 rounded-2xl ">Enviar</button>
+            </form>
         </section>
     </main>
     <footer class="bg-[#313131] text-white min-h-24"></footer>
 </body>
 
 </html>
+
+<!--
+MOUSE--- QUE SEA UN GUANTE CON LAS GEMAS
+
+https://images.wallpapersden.com/image/download/marvel-what-if_bG1lbm6UmZqaraWkpJRobWllrWdma2U.jpg
+
+-->

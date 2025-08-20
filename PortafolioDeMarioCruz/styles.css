@@ -4,6 +4,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Vengeance';
+    src: url(./fonts/AVENGEANCE\ HEROIC\ AVENGER.otf), url(./fonts/AVENGEANCE\ HEROIC\ AVENGER.ttf), url(./fonts/AVENGEANCE\ HEROIC\ AVENGER\ AT.otf), url(./fonts/AVENGEANCE\ HEROIC\ AVENGER\ AT.ttf), url(./fonts/AVENGEANCE\ HEROIC\ AVENGER\ BD.otf), url(./fonts/AVENGEANCE\ HEROIC\ AVENGER\ BD.ttf), url(./fonts/AVENGEANCE\ HEROIC\ AVENGER\ BI.otf), url(./fonts/AVENGEANCE\ HEROIC\ AVENGER\ BI.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 .marverFont {
     font-family: 'marvel';
+}
+.subTitulo {
+    font-family: Vengeance;
+    -webkit-text-stroke: 0.04rem rgb(49, 48, 48);
+    color: rgb(150, 150, 145);
 }
