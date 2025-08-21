@@ -394,20 +394,38 @@
   .min-h-screen {
     min-height: 100vh;
   }
+  .w-2xs {
+    width: var(--container-2xs);
+  }
   .w-6 {
     width: calc(var(--spacing) * 6);
   }
   .w-40 {
     width: calc(var(--spacing) * 40);
   }
+  .w-44 {
+    width: calc(var(--spacing) * 44);
+  }
   .w-45 {
     width: calc(var(--spacing) * 45);
+  }
+  .w-46 {
+    width: calc(var(--spacing) * 46);
   }
   .w-48 {
     width: calc(var(--spacing) * 48);
   }
   .w-50 {
     width: calc(var(--spacing) * 50);
+  }
+  .w-54 {
+    width: calc(var(--spacing) * 54);
+  }
+  .w-56 {
+    width: calc(var(--spacing) * 56);
+  }
+  .w-60 {
+    width: calc(var(--spacing) * 60);
   }
   .w-62 {
     width: calc(var(--spacing) * 62);
@@ -417,6 +435,9 @@
   }
   .w-\[300px\] {
     width: 300px;
+  }
+  .w-auto {
+    width: auto;
   }
   .w-full {
     width: 100%;
@@ -481,6 +502,9 @@
   .items-center {
     align-items: center;
   }
+  .items-start {
+    align-items: flex-start;
+  }
   .justify-around {
     justify-content: space-around;
   }
@@ -492,6 +516,9 @@
   }
   .justify-end {
     justify-content: flex-end;
+  }
+  .justify-start {
+    justify-content: flex-start;
   }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
@@ -565,11 +592,41 @@
   .border-white {
     border-color: var(--color-white);
   }
+  .border-b-white {
+    border-bottom-color: var(--color-white);
+  }
+  .bg-\[\#5c1a7d\] {
+    background-color: #5c1a7d;
+  }
+  .bg-\[\#6c1e93\] {
+    background-color: #6c1e93;
+  }
+  .bg-\[\#8e9708\] {
+    background-color: #8e9708;
+  }
+  .bg-\[\#9a0b0b\] {
+    background-color: #9a0b0b;
+  }
   .bg-\[\#303d4da8\] {
     background-color: #303d4da8;
   }
   .bg-\[\#762c9c\] {
     background-color: #762c9c;
+  }
+  .bg-\[\#934b4b\] {
+    background-color: #934b4b;
+  }
+  .bg-\[\#974b08\] {
+    background-color: #974b08;
+  }
+  .bg-\[\#7419a2\] {
+    background-color: #7419a2;
+  }
+  .bg-\[\#08970f\] {
+    background-color: #08970f;
+  }
+  .bg-\[\#08971e\] {
+    background-color: #08971e;
   }
   .bg-\[\#17113a\] {
     background-color: #17113a;
@@ -577,11 +634,35 @@
   .bg-\[\#21205ce0\] {
     background-color: #21205ce0;
   }
+  .bg-\[\#089750\] {
+    background-color: #089750;
+  }
   .bg-\[\#111155\] {
     background-color: #111155;
   }
   .bg-\[\#313131\] {
     background-color: #313131;
+  }
+  .bg-\[\#440897\] {
+    background-color: #440897;
+  }
+  .bg-\[\#680897\] {
+    background-color: #680897;
+  }
+  .bg-\[\#760897\] {
+    background-color: #760897;
+  }
+  .bg-\[\#792121\] {
+    background-color: #792121;
+  }
+  .bg-\[\#891111\] {
+    background-color: #891111;
+  }
+  .bg-\[\#970808\] {
+    background-color: #970808;
+  }
+  .bg-\[\#977608\] {
+    background-color: #977608;
   }
   .bg-\[\#a8a3a3\] {
     background-color: #a8a3a3;
@@ -597,6 +678,9 @@
   }
   .bg-\[grey\] {
     background-color: grey;
+  }
+  .bg-\[red\] {
+    background-color: red;
   }
   .bg-amber-50 {
     background-color: var(--color-amber-50);
@@ -618,6 +702,15 @@
     @supports (color: color-mix(in lab, red, red)) {
       background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
     }
+  }
+  .bg-blue-500 {
+    background-color: var(--color-blue-500);
+  }
+  .bg-blue-700 {
+    background-color: var(--color-blue-700);
+  }
+  .bg-gray-300 {
+    background-color: var(--color-gray-300);
   }
   .bg-gray-500 {
     background-color: var(--color-gray-500);
@@ -686,17 +779,14 @@
   .bg-\[url\(https\:\/\/pm1\.narvii\.com\/7893\/cb0862f9320ad40c5630714b88c77143e54e4a11r1-1103-736v2_hq\.jpg\)\] {
     background-image: url(https://pm1.narvii.com/7893/cb0862f9320ad40c5630714b88c77143e54e4a11r1-1103-736v2_hq.jpg);
   }
-  .bg-\[url\(https\:\/\/static\.wikia\.nocookie\.net\/marvelcinematicuniverse\/images\/0\/05\/Arishem_visita_la_Tierra\.png\)\] {
-    background-image: url(https://static.wikia.nocookie.net/marvelcinematicuniverse/images/0/05/Arishem_visita_la_Tierra.png);
-  }
-  .bg-\[url\(https\:\/\/static1\.srcdn\.com\/wordpress\/wp-content\/uploads\/2023\/01\/arishem-the-judge-celestial-from-eternals-in-the-mcu\.jpg\)\] {
-    background-image: url(https://static1.srcdn.com/wordpress/wp-content/uploads/2023/01/arishem-the-judge-celestial-from-eternals-in-the-mcu.jpg);
-  }
   .bg-\[url\(https\:\/\/th\.bing\.com\/th\/id\/R\.00831a36b65c226fd9af2d725f85e415\?rik\=VE6Pg74l75QmSw\&pid\=ImgRaw\&r\=0\)\] {
     background-image: url(https://th.bing.com/th/id/R.00831a36b65c226fd9af2d725f85e415?rik=VE6Pg74l75QmSw&pid=ImgRaw&r=0);
   }
   .bg-\[url\(https\:\/\/usagif\.com\/wp-content\/uploads\/gif\/outerspace-58\.gif\)\] {
     background-image: url(https://usagif.com/wp-content/uploads/gif/outerspace-58.gif);
+  }
+  .bg-\[url\(https\:\/\/wallpapers\.com\/images\/featured\/imagenes-de-marvel-a8zq5u8qw3ega7cx\.jpg\)\] {
+    background-image: url(https://wallpapers.com/images/featured/imagenes-de-marvel-a8zq5u8qw3ega7cx.jpg);
   }
   .bg-\[url\(https\:\/\/wallpapers\.com\/images\/hd\/infinity-gems-3000-x-2000-wallpaper-k9ct2almlqhb8klm\.jpg\)\] {
     background-image: url(https://wallpapers.com/images/hd/infinity-gems-3000-x-2000-wallpaper-k9ct2almlqhb8klm.jpg);
@@ -709,6 +799,10 @@
     --tw-gradient-via: var(--color-blue-400);
     --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
     --tw-gradient-stops: var(--tw-gradient-via-stops);
+  }
+  .to-black {
+    --tw-gradient-to: var(--color-black);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
   .to-blue-500 {
     --tw-gradient-to: var(--color-blue-500);
@@ -906,6 +1000,9 @@
   .text-black {
     color: var(--color-black);
   }
+  .text-gray-400 {
+    color: var(--color-gray-400);
+  }
   .text-gray-500 {
     color: var(--color-gray-500);
   }
@@ -977,8 +1074,51 @@
     --tw-duration: 700ms;
     transition-duration: 700ms;
   }
+  .text-shadow-md\/5 {
+    --tw-text-shadow-alpha: 5%;
+    text-shadow: 0px 1px 1px var(--tw-text-shadow-color, oklab(from rgb(0 0 0 / 0.1) l a b / 5%)), 0px 1px 2px var(--tw-text-shadow-color, oklab(from rgb(0 0 0 / 0.1) l a b / 5%)), 0px 2px 4px var(--tw-text-shadow-color, oklab(from rgb(0 0 0 / 0.1) l a b / 5%));
+  }
+  .text-shadow-2xs {
+    text-shadow: 0px 1px 0px var(--tw-text-shadow-color, rgb(0 0 0 / 0.15));
+  }
+  .text-shadow-\[0_35px_35px_2\] {
+    text-shadow: 0 35px 35px 2 var(--tw-text-shadow-color, currentcolor);
+  }
+  .text-shadow-\[0_35px_35px_rgb\(\#f000\)\] {
+    text-shadow: 0 35px 35px var(--tw-text-shadow-color, rgb(#f000));
+  }
+  .text-shadow-\[0_35px_35px_rgb\(\)\] {
+    text-shadow: 0 35px 35px var(--tw-text-shadow-color, rgb());
+  }
+  .text-shadow-\[0_35px_35px_rgb\(0_0_0_\/_0\.25\)\] {
+    text-shadow: 0 35px 35px var(--tw-text-shadow-color, rgb(0 0 0 / 0.25));
+  }
+  .text-shadow-\[0_35px_35px_rgb\(32_43_123_\/_0\.25\)\] {
+    text-shadow: 0 35px 35px var(--tw-text-shadow-color, rgb(32 43 123 / 0.25));
+  }
+  .text-shadow-\[0_35px_35px_rgb\(f000\)\] {
+    text-shadow: 0 35px 35px var(--tw-text-shadow-color, rgb(f000));
+  }
+  .text-shadow-\[2\] {
+    text-shadow: 2;
+  }
+  .text-shadow-\[2px\] {
+    text-shadow: 2px;
+  }
   .text-shadow-\[2px_0px_1px_red\] {
     text-shadow: 2px 0px 1px var(--tw-text-shadow-color, red);
+  }
+  .text-shadow-\[2px_2px_1px_red\] {
+    text-shadow: 2px 2px 1px var(--tw-text-shadow-color, red);
+  }
+  .text-shadow-\[2px_2px_3px_red\] {
+    text-shadow: 2px 2px 3px var(--tw-text-shadow-color, red);
+  }
+  .text-shadow-\[2rem\] {
+    text-shadow: 2rem;
+  }
+  .text-shadow-md {
+    text-shadow: 0px 1px 1px var(--tw-text-shadow-color, rgb(0 0 0 / 0.1)), 0px 1px 2px var(--tw-text-shadow-color, rgb(0 0 0 / 0.1)), 0px 2px 4px var(--tw-text-shadow-color, rgb(0 0 0 / 0.1));
   }
   .checked\:text-indigo-500 {
     &:checked {
@@ -1485,6 +1625,11 @@
   .dark\:bg-gray-400 {
     &:where(.dark, .dark *) {
       background-color: var(--color-gray-400);
+    }
+  }
+  .dark\:bg-gray-500 {
+    &:where(.dark, .dark *) {
+      background-color: var(--color-gray-500);
     }
   }
   .dark\:bg-gray-800 {

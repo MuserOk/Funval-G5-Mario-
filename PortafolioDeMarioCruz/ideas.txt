@@ -1,0 +1,3 @@
+- las cards de habilidades: 
+    tener una imagen de la gema y su breve explicacion... cuando se da hover, se revela su comparacion y similitud en DFS
+

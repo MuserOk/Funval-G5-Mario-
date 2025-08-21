@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 
-<body class="flex min-h-screen bg-blue-900/80 flex-col">
+<body id="inicio" class="flex min-h-screen bg-[url(https://usagif.com/wp-content/uploads/gif/outerspace-58.gif)] bg-cover bg-center flex-col">
     <header class="fixed z-50 w-screen bg-black/50 flex items-center justify-between pl-4 pr-4 sm:pl-6 sm:pr-6">
         <button class="hover:bg-gray-500 rounded-md border-2 border-white md:hidden">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 text-white ">
@@ -17,68 +17,86 @@
             </svg>
         </button>
         <nav class="hidden md:flex gap-6 subTitulo lg:gap-8 text-2xl lg:font-bold text-white">
-            <a href="#contactos" class="hover:text-[110%] ">Contacto</a>
+            <a href="#contacto" class="hover:text-[110%] ">Contacto</a>
             <a href="#redes" class="hover:text-[110%]">Redes Sociales</a>
             <a href="#comentarios" class="hover:text-[110%]">Comentario</a>
             <a href="#inicio" class="hover:text-[110%]">Inicio</a>
         </nav>
         <img class="h-24 ml-3" src="./image/miLogotipo.png" alt="logotipo">
-        <Button class="subTitulo flex flex-col justify-center items-center relative text-[gray] font-sans p-1 hover:text-white hover:text-lg lg:hover:text-xl hover:p-0 lg:text-lg lg:font-bold">./contact
+        <Button class="subTitulo flex flex-col justify-center items-center relative text-[gray] font-sans p-1 hover:text-white hover:text-lg lg:hover:text-xl hover:p-0 lg:text-lg lg:font-bold">
+            <a href="#contacto">./contact</a>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 absolute top-[60%] right-[10%] text-[#2f2f44] md:text-2xl">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" />
             </svg>
         </Button>
     </header>
-    <main class="flex-1 pt-24 ">
-        <section class="bg-[url(https://images.wallpapersden.com/image/download/marvel-what-if_bG1lbm6UmZqaraWkpJRobWllrWdma2U.jpg)] bg-cover flex flex-col items-center pt-12 pb-10 gap-4 lg:gap-1">
+    <main class="flex-1">
+        <!--Hero-->
+        <section class="bg-[url(https://images.wallpapersden.com/image/download/marvel-what-if_bG1lbm6UmZqaraWkpJRobWllrWdma2U.jpg)] bg-cover bg-center flex flex-col items-center pt-30 pb-10 gap-4 lg:gap-1 min-h-screen">
             <h2 class="subTitulo text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold  text-center m-4 ">Mario Cruz</h2>
-            <div class="flex items-center gap-6">
+            <div class="grid grid-cols-1 md:flex items-center place-items-center gap-6">
                 <h1 class="subTitulo  text-4xl sm:text-5xl md:text-6xl lg:text-7xl sm:p-2 font-bold text-center">Desarrollador Full Stack</h1>
                 <img class="  size-50 lg:size-70 rounded-full mr-6" src="./image/miFoto-optimizada.png" alt="fotografia de mario cruz">
             </div>
             <a class="subTitulo  text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold hover:text-[#4c4c87] hover:text-xl sm:hover:text-3xl md:hover:text-4xl lg:hover:text-5xl" href="#proyectos">Proyectos</a>
         </section>
-        <section class="md:pl-36 md:pr-36  bg-gradient-to-r from-blue-300 via-blue-400 to-blue-500 flex flex-col text-center justify-center items-center gap-4 text-white p-10">
+        <!--Quien soy-->
+        <section id="sobreMi" class="md:pl-36 md:pr-36 bg-[url(https://static1.srcdn.com/wordpress/wp-content/uploads/2023/01/arishem-the-judge-celestial-from-eternals-in-the-mcu.jpg)] bg-cover bg-center bg-gradient-to-r from-blue-300 via-blue-400 to-blue-500 flex flex-col text-center justify-center items-center gap-4 text-white pt-36 p-10 min-h-screen">
             <h3 class="subTitulo  text-4xl sm:text-5xl md:text-6xl lg:text-7xl sm:p-2 font-bold text-center">Quien soy?</h3>
             <p class="subTitulo  text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold hover:text-[#4c4c87] hover:text-xl sm:hover:text-3xl md:hover:text-4xl lg:hover:text-5xl">Como desarrollador full stack, me enfoco en crear aplicaciones web funcionales y bien estructuradas.</p>
             <p class="subTitulo  text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold hover:text-[#4c4c87] hover:text-xl sm:hover:text-3xl md:hover:text-4xl lg:hover:text-5xl">Tengo experiencia trabajando tanto en el front-end como en el back-end, utilizando un conjunto de tecnologias para construir soluciones completas.</p>
             <p class="subTitulo  text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold hover:text-[#4c4c87] hover:text-xl sm:hover:text-3xl md:hover:text-4xl lg:hover:text-5xl">Mi objetivo es desarrollar productos eficientes y faciles de usar, prestando atencion a la calidad del codigo y a la resolucion de problemas.</p>
             <p class="pb-10 subTitulo  text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold hover:text-[#4c4c87] hover:text-xl sm:hover:text-3xl md:hover:text-4xl lg:hover:text-5xl">Busco oportunidades para aplicar y expandir mis habilidades tecnicas en proyectos desafiantes.</p>
         </section>
-        <section class="flex flex-col pt-16 pb-16 items-center">
+        <!--Skills-->
+        <section id="habililidades" class="flex flex-col pt-36 pb-16 items-center">
             <h3 class="subTitulo  text-4xl sm:text-5xl md:text-6xl lg:text-7xl sm:p-2 font-bold">Skills</h3>
             <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 place-items-center mt-8 mb-8">
-                <div class="bg-[url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2014/07/351628-marvel-anuncia-nuevo-capitan-america.jpg?tf=3840x)] bg-cover  flex flex-col items-center justify-center min-h-[22rem] max-w-[18rem] rounded-2xl shadow-xl/80 p-[2rem 0.25rem 1rem 0.25rem]">
+                <div class="bg-[url(https://pm1.narvii.com/7893/cb0862f9320ad40c5630714b88c77143e54e4a11r1-1103-736v2_hq.jpg)] bg-cover bg-center  flex flex-col items-center justify-center min-h-[22rem] max-w-[18rem] rounded-2xl shadow-xl/80">
                     <img class="max-w-[94%] rounded-md" src="./image/logo-html5.png" alt="imagen">
+                    <p class="subTitulo">El espacio donde todo ocurre</p>
                 </div>
-                <div class="bg-[url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/07/iron-man-vr-1983107.jpg?tf=3840x)] bg-cover flex flex-col items-center justify-center min-h-[22rem] max-w-[18rem] rounded-2xl shadow-xl/80 p-[2rem 0.25rem 1rem 0.25rem]">
-                    <img class="max-w-[94%] rounded-md h-84 " src="./image/logo-css3.png" alt="imagen">
+                <div class="bg-[url(https://i.pinimg.com/originals/ec/6e/77/ec6e77b5d980542f8788036e3484aa21.jpg)] bg-cover bg-center flex flex-col items-center justify-center min-h-[22rem] max-w-[18rem] rounded-2xl shadow-xl/80">
+                    <img class="max-w-[94%] rounded-md h-70 " src="./image/logo-css3.png" alt="imagen">
+                    <p class="subTitulo">La realidad a voluntad</p>
                 </div>
-                <div class="bg-[url(https://m.gettywallpapers.com/wp-content/uploads/2021/05/Thor-Desktop-Wallpaper.jpg)] bg-cover flex flex-col items-center justify-center min-h-[22rem] max-w-[18rem] rounded-2xl shadow-xl/80 p-[2rem 0.25rem 1rem 0.25rem]">
+                <div class="bg-[url(https://th.bing.com/th/id/R.00831a36b65c226fd9af2d725f85e415?rik=VE6Pg74l75QmSw&pid=ImgRaw&r=0)] bg-cover bg-center flex flex-col items-center justify-center min-h-[22rem] max-w-[18rem] rounded-2xl shadow-xl/80">
                     <img class="max-w-[94%] rounded-md h-60" src="./image/logo-js.png" alt="imagen">
+                    <p class="subTitulo">Inteligencia y control</p>
                 </div>
-                <div class="bg-[url(https://pm1.aminoapps.com/6542/f1d2357a5e41c8c8a726bc4f595b531ecc78ba92_hq.jpg)] bg-cover flex flex-col items-center justify-center min-h-[22rem] max-w-[18rem] rounded-2xl shadow-xl/80 p-[2rem 0.25rem 1rem 0.25rem]">
+                <div class="bg-[url(https://wallpapers.com/images/hd/infinity-gems-3000-x-2000-wallpaper-k9ct2almlqhb8klm.jpg)] bg-cover bg-center flex flex-col items-center justify-center min-h-[22rem] max-w-[18rem] rounded-2xl shadow-xl/80">
                     <img class="max-w-[94%] rounded-md" src="./image/logo-python.png" alt="imagen">
+                    <p class="subTitulo">Control de las procesos</p>
                 </div>
-                <div class="bg-[url(https://wallpapers.com/images/featured/spiderman-p4ashmgeamn2mvkn.jpg)] bg-cover flex flex-col items-center justify-center min-h-[22rem] max-w-[18rem] rounded-2xl shadow-xl/80 p-[2rem 0.25rem 1rem 0.25rem]">
-                    <img class="max-w-[94%] rounded-md" src="./image/logo-sql.png" alt="imagen">
+                <div class="bg-[url(https://i.pinimg.com/originals/be/56/0d/be560d0214bee2974e316098e3e249d1.jpg)] bg-cover bg-center flex flex-col items-center justify-center min-h-[22rem] max-w-[18rem] rounded-2xl shadow-xl/80">
+                    <img class="max-w-[94%] w-50 ml-11 mr-11 rounded-md" src="./image/logo-sql.png" alt="imagen">
+                    <p class="subTitulo">Poder para contener los datos</p>
                 </div>
-                <div class="bg-[url(https://pm1.aminoapps.com/6188/05b86acff3278f9eb09d054ecedf2cb89ac7d1c7_hq.jpg)] bg-cover  flex flex-col items-center justify-center min-h-[22rem] min-w-72 max-w-[18rem] rounded-2xl shadow-xl/80 p-8">
+                <div class="bg-[url(https://i.pinimg.com/736x/c6/fc/2f/c6fc2f0d7e6a0ef618ec88d7f915281a.jpg)] bg-cover bg-center flex flex-col items-center justify-center min-h-[22rem] min-w-72 max-w-[18rem] rounded-2xl shadow-xl/80 p-8">
                     <h3 class="text-center subTitulo  text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold hover:text-[#4c4c87] hover:text-xl sm:hover:text-3xl md:hover:text-4xl lg:hover:text-5xl">Habilidades Adicionales</h3>
                     <figure class="flex-1 grid grid-cols-2 p-2 gap-2">
-                        <img class="rounded-md" src="" alt="imagen">
-                        <img class="rounded-md" src="" alt="imagen">
-                        <img class="rounded-md" src="" alt="imagen">
-                        <img class="rounded-md" src="" alt="imagen">
+                        <img class="rounded-md" src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2014/07/351628-marvel-anuncia-nuevo-capitan-america.jpg?tf=3840x" alt="imagen">
+                        <img class="rounded-md" src="https://m.gettywallpapers.com/wp-content/uploads/2021/05/Thor-Desktop-Wallpaper.jpg" alt="imagen">
+                        <img class="rounded-md" src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/07/iron-man-vr-1983107.jpg?tf=3840x" alt="imagen">
+                        <img class="rounded-md" src="https://wallpapers.com/images/featured/spiderman-p4ashmgeamn2mvkn.jpg" alt="imagen">
                     </figure>
-                    <a href="#" type="button" class="bg-gray-200 pl-3 pr-3 pt-2 pb-2 rounded-xl text-white subTitulo">Descarga CV</a>
+                    <a href="#" type="button" class="bg-[url(https://media.tenor.com/4kQehPvbyDUAAAAM/elmo-yellow.gif)] bg-cover bg-top pl-3 pr-3 pt-2 pb-2 rounded-xl subTitulo">Descarga mi escencia en CV</a>
                 </div>
             </div>
         </section>
-        <section class="flex flex-col pt-16 pb-16 items-center">
-            <h3 class="subTitulo  text-4xl sm:text-5xl md:text-6xl lg:text-7xl sm:p-2 font-bold">Proyectos destacados</h3>
+        <!--Proyectos-->
+        <section id="proyectos" class="flex flex-col pt-36 pb-16 items-center">
+            <h3 class="subTitulo text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl sm:p-2 font-bold">Proyectos destacados</h3>
+            <figure>
+                <img src="https://www.teknofilo.com/wp-content/uploads/2020/06/App-Calculadora.jpg" alt="">
+                <img src="https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2024/08/Pixel-9-Pro-Fold-Weather-App.png?resize=1200%2C628&quality=82&strip=all&ssl=1" alt="">
+                <img src="https://www.elpais.com.co/resizer/v2/TNVTOPV2KJAA5GDTHT6DZIKG5Q.jpg?auth=4aaac91a93c50b2ce4c5215954b21cfcfb7c2d494751400d90a63219dbe90c14&smart=true&quality=75&width=1920" alt="">
+                <img src="https://i.ytimg.com/vi/4aE-5lO1j70/hqdefault.jpg" alt="">
+                <img src="https://wwwhatsnew.com/wp-content/uploads/2021/08/apps-para-programar.jpg" alt="">
+            </figure>
         </section>
-        <section class="flex flex-col pt-16 pb-16 items-center">
+        <!--Contacto-->
+        <section id="contacto" class=" flex flex-col pt-16 pb-16 items-center">
             <form action="" class="bg-[#21205ce0] rounded-xl min-h-68 min-w-86  flex flex-col p-4 gap-3 text-[white]">
                 <h3 class="subTitulo  text-4xl sm:text-5xl md:text-6xl lg:text-7xl sm:p-2 font-bold text-center pt-8">Contacto</h3>
                 <label for="">Redacta</label>
@@ -91,7 +109,7 @@
             </form>
         </section>
     </main>
-    <footer class="bg-[#313131] text-white min-h-24"></footer>
+    <footer class="bg-[#313131] text-white min-h-36"></footer>
 </body>
 
 </html>
@@ -101,4 +119,26 @@ MOUSE--- QUE SEA UN GUANTE CON LAS GEMAS
 
 https://images.wallpapersden.com/image/download/marvel-what-if_bG1lbm6UmZqaraWkpJRobWllrWdma2U.jpg
 
+
+cap
+https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2014/07/351628-marvel-anuncia-nuevo-capitan-america.jpg?tf=3840x
+
+thor
+https://m.gettywallpapers.com/wp-content/uploads/2021/05/Thor-Desktop-Wallpaper.jpg
+
+iron man
+https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/07/iron-man-vr-1983107.jpg?tf=3840x
+
+hulk
+https://pm1.aminoapps.com/6542/f1d2357a5e41c8c8a726bc4f595b531ecc78ba92_hq.jpg
+
+SpiderMan
+https://wallpapers.com/images/featured/spiderman-p4ashmgeamn2mvkn.jpg
+
+dr strange
+https://pm1.aminoapps.com/6188/05b86acff3278f9eb09d054ecedf2cb89ac7d1c7_hq.jpg
+
+
+Arishe
+https://static.wikia.nocookie.net/marvelcinematicuniverse/images/0/05/Arishem_visita_la_Tierra.png/revision/latest?cb=20220409011849&path-prefix=es
 -->

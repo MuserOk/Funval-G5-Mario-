@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" id="todo" class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <title>Aprendiendo Modo-Dark</title>
+</head>
+
+<body class="w-full h-full flex justify-center items-center  gap-10 dark:bg-black p-12">
+    <div class=" flex flex-col justify-center items-center p-5 dark:bg-gray-800 rounded-2xl bg-[#762c9c]">
+        <figure class="flex ">
+            <img class="dark:hidden rounded-sm w-45" src=" https://www.penguinlibros.com/es/6017464-home_default/harry-potter-y-el-prisionero-de-azkaban-harry-potter-edicion-con-ilustraciones-de-xavier-bonet-3.webp " alt="libroLight ">
+            <img class="hidden dark:flex rounded-sm w-45" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbGzLo2BIbi-rYQTduxzXPi3lCZzqZPrpf1mx0Lzoojlp-ItuCLzfIn5aUBLVIkh1VLY4&usqp=CAU" alt="libroDark ">
+        </figure>
+        <div class="flex flex-col p-4 w-full text-gray-900 dark:text-gray-200">
+            <h1 class="text-2xl font-[marvles] font-bold">Harry Potter 3</h1>
+            <p class="text-2xl font-[marvles]">paravos</p>
+            <p class="text-2xl font-[marvles]">sdfsfsd</p>
+            <p class="text-2xl font-[marvles]">fsdfsddf</p>
+            <p class="text-shadow-[2px_0px_1px_red]">
+                Lorem ipsum dolor sit amet...
+            </p>
+        </div>
+        <button class="bg-gray-500 dark:bg-gray-400 rounded-md text-white dark:text-gray-900 p-1 hover:border-2 border-white dark:border-black">Comprar</button>
+    </div>
+    <button id="btn" class="bg-amber-800 p-2 rounded-2xl hover:bg-green-500 dark:hover:white">Modo</button>
+
+    <script>
+        let todo = document.querySelector("#todo");
+        let botoncito = document.querySelector("#btn");
+        botoncito.addEventListener("click", function() {
+            todo.classList.toggle("dark");
+        });
+    </script>
+</body>
+
+</html>
