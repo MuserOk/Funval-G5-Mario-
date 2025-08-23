@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" id="todo" class="">
 
 <head>
     <meta charset="UTF-8">
@@ -11,7 +11,7 @@
 
 <body id="inicio" class="flex min-h-screen bg-[url(https://usagif.com/wp-content/uploads/gif/outerspace-58.gif)] bg-cover bg-center flex-col">
     <header class="fixed z-50 w-screen bg-black/50 flex items-center justify-between pl-4 pr-4 sm:pl-6 sm:pr-6">
-        <button class="hover:bg-gray-500 rounded-md border-2 border-white md:hidden">
+        <button class="hover:bg-gray-500 active:bg-gray-600 rounded-md border-2 border-white md:hidden">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 text-white ">
                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
             </svg>
@@ -23,7 +23,7 @@
             <a href="#inicio" class="hover:text-[110%]">Inicio</a>
         </nav>
         <img class="h-24 ml-3" src="./image/miLogotipo.png" alt="logotipo">
-        <Button class="subTitulo flex flex-col justify-center items-center relative text-[gray] font-sans p-1 hover:text-white hover:text-lg lg:hover:text-xl hover:p-0 lg:text-lg lg:font-bold">
+        <Button class="subTitulo flex flex-col justify-center items-center relative text-[gray] font-sans p-1 hover:text-white active:font-bold hover:text-lg lg:hover:text-xl hover:p-0 lg:text-lg lg:font-bold">
             <a href="#contacto">./contact</a>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 absolute top-[60%] right-[10%] text-[#2f2f44] md:text-2xl">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" />
@@ -85,19 +85,92 @@
             </div>
         </section>
         <!--Proyectos-->
+
+
+
+        <!--        CARRUSEL
+        <div id="controls-carousel" class="relative w-full" data-carousel="static">
+            Carousel wrapper
+            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                Item 1
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2014/07/351628-marvel-anuncia-nuevo-capitan-america.jpg?tf=3840x" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+                 Item 2
+                <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                    <img src="./image/logo-html5.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+                 Item 3 
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="./image/logo-css3.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+                Item 4
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="./image/logo-js.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+                Item 5 
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="./image/logo-python.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+            </div>
+            Slider controls
+            <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+            <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+        </div>
+
+ -->
+
+
         <section id="proyectos" class="flex flex-col pt-36 pb-16 items-center">
-            <h3 class="subTitulo text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl sm:p-2 font-bold">Proyectos destacados</h3>
-            <figure>
-                <img src="https://www.teknofilo.com/wp-content/uploads/2020/06/App-Calculadora.jpg" alt="">
-                <img src="https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2024/08/Pixel-9-Pro-Fold-Weather-App.png?resize=1200%2C628&quality=82&strip=all&ssl=1" alt="">
-                <img src="https://www.elpais.com.co/resizer/v2/TNVTOPV2KJAA5GDTHT6DZIKG5Q.jpg?auth=4aaac91a93c50b2ce4c5215954b21cfcfb7c2d494751400d90a63219dbe90c14&smart=true&quality=75&width=1920" alt="">
-                <img src="https://i.ytimg.com/vi/4aE-5lO1j70/hqdefault.jpg" alt="">
-                <img src="https://wwwhatsnew.com/wp-content/uploads/2021/08/apps-para-programar.jpg" alt="">
+            <h3 class="subTitulo text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl sm:p-4 md:py-6 lg:py-10 font-bold ">Proyectos destacados</h3>
+            <figure class="flex justify-center items-center gap-6 flex-col sm:grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+                <div class="bg-blue-600 flex flex-col items-center justify-center min-h-[22rem] max-w-[18rem] rounded-2xl shadow-xl/80">
+                    <h1 class="p-2 m-2">Calculadora</h1>
+                    <img class="p-2 rounded-2xl" src="https://www.teknofilo.com/wp-content/uploads/2020/06/App-Calculadora.jpg" alt="">
+                    <p class="text-center py-4">Calduladora con varias funcionalidades con desarrollo en personada no videntes.</p>
+                </div>
+                <div class="bg-blue-600 flex flex-col items-center justify-center min-h-[22rem] max-w-[18rem] rounded-2xl shadow-xl/80">
+                    <h1 class="p-2 m-2">R@dar+</h1>
+                    <img class="p-2 rounded-2xl" src="https://www.elpais.com.co/resizer/v2/TNVTOPV2KJAA5GDTHT6DZIKG5Q.jpg?auth=4aaac91a93c50b2ce4c5215954b21cfcfb7c2d494751400d90a63219dbe90c14&smart=true&quality=75&width=1920" alt="">
+                    <p class="text-center py-4">Esta aplicacion está diseñada y optimizada para realizar localizacion con memoria y proyectando un perdida de datos satelitales de hasta 1 hora por su almacenamiento de datos en la nube.</p>
+                </div>
+                <div class="bg-blue-600 flex flex-col items-center justify-center min-h-[22rem] max-w-[18rem] rounded-2xl shadow-xl/80">
+                    <h1 class="p-2 m-2">Climax
+                    </h1>
+                    <img class="p-2 rounded-2xl" src="https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2024/08/Pixel-9-Pro-Fold-Weather-App.png?resize=1200%2C628&quality=82&strip=all&ssl=1" alt="">
+                    <p class="text-center py-4">Esta aplicacion esta diseñada para trabajar con la IA en tiempo real, permitiendo obtener la informacion con un 99.9% de exactitud.</p>
+                </div>
+                <div class="bg-blue-600 flex flex-col items-center justify-center min-h-[22rem] max-w-[18rem] rounded-2xl shadow-xl/80">
+                    <h1 class="p-2 m-2">Food-Doly</h1>
+                    <img class="p-2 rounded-2xl" src="https://i.ytimg.com/vi/4aE-5lO1j70/hqdefault.jpg" alt="">
+                    <p class="text-center py-4">Esta app permite a los usuarios crear sus propias receas e integrada con la IA puede predecir y calcular al maximo para ganar y aprovechar todos los nutrientes de los alimentos.</p>
+                </div>
+                <div class="bg-blue-600 flex flex-col items-center justify-center min-h-[22rem] max-w-[18rem] rounded-2xl shadow-xl/80">
+                    <h1 class="p-2 m-2">Tecno-citos</h1>
+                    <img class="p-2 rounded-2xl" src="https://wwwhatsnew.com/wp-content/uploads/2021/08/apps-para-programar.jpg" alt="">
+                    <p class="text-center py-4">Promoviendo el desarrollo y el aprendizaje en la resolucion de problemas y creando soluciones complejas, por medio del juego, el descubrimiento segun cada edad.
+
+                    </p>
+                </div>
             </figure>
         </section>
         <!--Contacto-->
-        <section id="contacto" class=" flex flex-col pt-16 pb-16 items-center">
-            <form action="" class="bg-[#21205ce0] rounded-xl min-h-68 min-w-86  flex flex-col p-4 gap-3 text-[white]">
+        <section id="contacto" class=" flex flex-col py-16 items-center justify-center ">
+            <form action="" class="bg-[#21205ce0] rounded-xl min-h-72 min-w-120 sm:min-w-140 lg:min-w-150 flex flex-col p-4 gap-3 text-[white]">
                 <h3 class="subTitulo  text-4xl sm:text-5xl md:text-6xl lg:text-7xl sm:p-2 font-bold text-center pt-8">Contacto</h3>
                 <label for="">Redacta</label>
                 <textarea name="" id="" class="border-2 rounded-sm focus:bg-gray-500 focus:text-blue-950 p-1" placeholder="Escribe aqui..."></textarea>
@@ -110,12 +183,20 @@
         </section>
     </main>
     <footer class="bg-[#313131] text-white min-h-36"></footer>
+    <script>
+        let todo = document.querySelector("#todo");
+        let botoncito = document.querySelector("#btn");
+        botoncito.addEventListener("click", function() {
+            todo.classList.toggle("dark");
+        });
+    </script>
 </body>
 
 </html>
 
 <!--
 MOUSE--- QUE SEA UN GUANTE CON LAS GEMAS
+Dark---- aplicar
 
 https://images.wallpapersden.com/image/download/marvel-what-if_bG1lbm6UmZqaraWkpJRobWllrWdma2U.jpg
 
