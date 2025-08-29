@@ -62,6 +62,8 @@ do {
                             alert("Operacion realizada con exito")
                         }
                     }
+                } else if (egreso == 0) {
+                    salirRetirarDinero = false;
                 } else {
                     alert("Carácter inválido, itenta nuevamente")
                 }
